@@ -8,7 +8,7 @@ function Navbar() {
       justifyContent="space-between"
       direction="row"
       component="nav"
-      borderBottom="2px solid"
+      borderBottom="1px solid"
       borderColor={theme => theme.palette.customGray.main}
     >
       <img src={hour_rate_full_logo} alt="Hour rate logo" height={30} />

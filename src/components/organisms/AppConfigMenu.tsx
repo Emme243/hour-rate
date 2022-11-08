@@ -3,10 +3,10 @@ import ColorModeSwitcher from '../molecules/ColorModeSwitcher';
 import { Box, Divider, IconButton, Menu, Stack, Tooltip, Typography } from '@mui/material';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import { useState, MouseEvent } from 'react';
-import useLocale from '../../hooks/useLocale';
+import useTranslationByComponent from '../../hooks/useTranslationByComponent';
 
 function AppConfigMenu() {
-  const { tByComponent } = useLocale('app_config_menu');
+  const { tByPropName } = useTranslationByComponent('app_config_menu');
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const isMenuOpen = Boolean(anchorEl);
   function handleClick(event: MouseEvent<HTMLButtonElement>) {
@@ -18,7 +18,7 @@ function AppConfigMenu() {
 
   return (
     <div>
-      <Tooltip title={tByComponent('title')} placement="bottom">
+      <Tooltip title={tByPropName('title')} placement="bottom">
         <IconButton color="primary" size="large" onClick={handleClick}>
           <SettingsOutlinedIcon />
         </IconButton>
@@ -46,7 +46,7 @@ function AppConfigMenu() {
         >
           <Box px={3} pt={1}>
             <Typography variant="h6" textTransform="uppercase">
-              {tByComponent('title')}
+              {tByPropName('title')}
             </Typography>
           </Box>
           <Box px={3} pb={1}>

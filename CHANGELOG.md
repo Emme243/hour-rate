@@ -1,9 +1,13 @@
 # CHANGELOG
 
+## Mon 11/07/2022
+- Improved `useTranslationByComponent` hook, renamed variables.
+- Added `Login` page. Only layout.
+
 ## Sat 11/05/2022
 - Improved the way translations are written, translation object must be called as the component name but in snake case. 
 Example: if we have a component called `MyComponent` the translation object must be called `my_component` in locale files.
-- Improved the way we get translations, now we use a custom hook called `useLocale` that returns translations by component names.
+- Improved the way we get translations, now we use a custom hook called `useTranslationByComponent` that returns translations by component names.
 - Improved Mui Theme Options, they were moved to the Mui Context Provider.
 - Added Navbar.
 - Added routing and components for `/` and `/clients/:id` path.

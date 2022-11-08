@@ -21,4 +21,11 @@ export default {
     sth_went_wrong: 'Algo salió mal',
     go_home: 'Ir a inicio',
   },
+  login_page: {
+    you_know_what_to_do: 'Sé que sabes qué hacer',
+    username: 'Nombre de usuario',
+    password: 'Contraseña',
+    submit: 'Iniciar sesión',
+    digimon_you_hate: 'Digimon que odias',
+  },
 };
