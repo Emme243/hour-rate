@@ -14,6 +14,12 @@ export default {
   language_switcher: {
     language: 'Language',
   },
+  login_form: {
+    username: 'Username',
+    password: 'Password',
+    submit: 'Login',
+    digimon_you_hate: 'Digimon you hate',
+  },
   // PAGES
   not_found_page: {
     title: 'Page not found',
@@ -23,9 +29,5 @@ export default {
   },
   login_page: {
     you_know_what_to_do: 'You know what to do',
-    username: 'Username',
-    password: 'Password',
-    submit: 'Login',
-    digimon_you_hate: 'Digimon you hate',
   },
 };

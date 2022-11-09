@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## Tue 11/08/2022
+- Improved `Login` page, added validation and error messages.
+
 ## Mon 11/07/2022
 - Improved `useTranslationByComponent` hook, renamed variables.
 - Added `Login` page. Only layout.
